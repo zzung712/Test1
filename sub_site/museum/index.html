@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>국립광주박물관</title>
+ <link rel="stylesheet" href="./css/reset.css">
+ <link rel="stylesheet" href="./css/style.css">
+ <script src="js/jquery-3.5.1.js"></script>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+ <script src="./js/script.js" defer></script>
+</head>
+<body>
+ <div class="wrap">
+  <header id="header">
+   <div class="h_top">
+    <div class="login_wrap">
+     <ul>
+      <li><a href="#">홈으로</a></li>
+      <li><span>|</span></li>
+      <li><a href="#">어린이박물관</a></li>
+      <li><span>|</span></li>
+      <li><a href="#">정보공개</a></li>
+      <li><span>|</span></li>
+      <li><a href="#">LANGUAGE ▼</a></li>
+     </ul>
+    </div>
+   </div>
+   <!-- h_top end -->
+   <div class="h_bottom">
+    <div class="logo">
+     <a href="index.html">
+      <img src="./img/logo.png" alt="x">
+     </a>
+    </div>
+    <!-- logo end -->
+    <div class="menu_wrap">
+     <div class="container">
+      <ul class="menu">
+       <li><a href="#">관람정보</a></li>
+       <li><span>|</span></li>
+       <li><a href="#">전시</a></li>
+       <li><span>|</span></li>
+       <li><a href="#">교육·행사</a></li>
+       <li><span>|</span></li>
+       <li><a href="#">소장품</a></li>
+       <li><span>|</span></li>
+       <li><a href="#">학술</a></li>
+       <li><span>|</span></li><li><a href="#">소식·참여</a></li>
+      </ul>
+     </div>
+     <!-- menu container end -->
+    </div>
+    <!-- menu end -->
+    <div class="side">
+     <ul>
+      <li><a href="#"><p>박물관 소개</p></a></li>
+      <li><a href="#"><img src="./img/home.png" alt="x"></a></li>
+      <li id="sitemap"><a href="#"><img src="./img/menu_btn.png" alt="x"></a></li>
+      <li id="mo_btn"><a href="#"><img src="./img/menu_btn.png" alt="x"></a></li>
+     </ul>
+    </div>
+    <!-- side end -->
+   </div>
+   <!-- h_bottom end -->
+
+   <div class="side_menu_wrap">
+    <div class="side_menu">
+      <div class="tit">
+        <ul>
+          <li><a href="#"><img src="./img/menu_btn.png" alt="x"></a></li>
+          <li><a href="#">국립광주박물관</a></li>
+          <li>Language</li>
+          <li class="side_x">X</li>
+        </ul>
+      </div>
+      <div class="s_menu">
+        <ul>
+          <li><a href="#"><p>관람정보</p><span>ㅡ</span></a>
+           <ul class="s_submenu">
+            <li><a href="#">관람안내</a></li>
+            <li><a href="#">사전단체관람신청</a></li>
+            <li><a href="#">전시해설</a></li>
+            <li><a href="#">시설안내</a></li>
+            <li><a href="#">찾아오시는길</a></li>
+           </ul>
+          </li>
+          <li><a href="#"><p>전시</p><span>ㅡ</span></a>
+            <ul class="s_submenu">
+              <li><a href="#">상설전시</a></li>
+              <li><a href="#">특별전시</a></li>
+              <li><a href="#">전시도록</a></li>
+              <li><a href="#">가상현실체험관</a></li>
+             </ul>
+          </li>
+          <li><a href="#"><p>교육·행사</p><span>ㅡ</span></a>
+            <ul class="s_submenu">
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">교육프로그램</a></li>
+              <li><a href="#">문화행사</a></li>
+              <li><a href="#">공연</a></li>
+              <li><a href="#">온라인학습영상자료실</a></li>
+              <li><a href="#">교육자료</a></li>
+              <li><a href="#">읽어주는문화재</a></li>
+              <li><a href="#">교육/행사사진</a></li>
+              <li><a href="#">예약확인/취소</a></li>
+             </ul>
+          </li>
+          <li><a href="#"><p>소장품</p><span>ㅡ</span></a>
+            <ul class="s_submenu">
+              <li><a href="#">소장품검색</a></li>
+              <li><a href="#">소장품정보서비스</a></li>
+              <li><a href="#">지정문화재</a></li>
+              <li><a href="#">큐레이터추천소장품</a></li>
+              <li><a href="#">문화재기증</a></li>
+             </ul>
+          </li>
+          <li><a href="#"><p>학술</p><span>ㅡ</span></a>
+            <ul class="s_submenu">
+              <li><a href="#">아시아도자문화연구</a></li>
+              <li><a href="#">학술연구</a></li>
+              <li><a href="#">발굴조사</a></li>
+              <li><a href="#">보존과학</a></li>
+              <li><a href="#">보고서</a></li>
+              <li><a href="#">도서열람실</a></li>
+             </ul>
+          </li>
+          <li><a href="#"><p>소식·참여</p><span>ㅡ</span></a>
+            <ul class="s_submenu">
+              <li><a href="#">새소식</a></li>
+              <li><a href="#">온라인박물관</a></li>
+              <li><a href="#">이벤트게시판</a></li>
+              <li><a href="#">언론에비친박물관</a></li>
+              <li><a href="#">월간소식지</a></li>
+              <li><a href="#">국립광주박물관후원회</a></li>
+              <li><a href="#">박물관친구들[자원봉사]</a></li>
+              <li><a href="#">자주하는질문</a></li>
+              <li><a href="#">관람후기</a></li>
+              <li><a href="#">전자민원(불편신고)</a></li>
+              <li><a href="#">설문조사</a></li>
+             </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- side_menu end -->
+   </div>
+   <!-- side_menu_wrap end -->
+
+  </header>
+  <!-- header end -->
+  <nav id="banner">
+    <div class="container">
+    <div class="swiper mySwiper">
+     <div class="swiper-wrapper">
+       <div class="swiper-slide">
+        <a href="#">
+         <img src="./img/banner1.jpg" alt="x">
+        </a>
+       </div>
+       <div class="swiper-slide">
+        <a href="#">
+         <img src="./img/banner2.jpg" alt="x">
+        </a>
+       </div>
+       <div class="swiper-slide">
+        <a href="#">
+         <img src="./img/banner3.jpg" alt="x">
+        </a>
+       </div>
+     </div>
+     <!-- swiper-wrapper end -->
+     <div class="swiper-button-next"></div>
+     <div class="swiper-button-prev"></div>
+     <div class="swiper-pagination"></div>
+    </div>
+    <!-- swiper end -->
+    </div>
+    <!-- container end -->
+   </nav>
+   <!-- banner end -->
+   <!-- Swiper JS -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ 
+   <!-- Initialize Swiper -->
+   <script>
+     var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      loop:true,
+      autoplay:{
+        delay:2500,
+      },
+     });
+   </script>
+
+  <section id="contents">
+   <div class="container">
+    <div class="con1">
+     <div class="link_wrap">
+      <ul class="link">
+       <a href="#">
+        <li><img src="./img/search.png" alt="x"></li>
+        <li><p>통합검색/예약</p></li>
+        <li><img src="./img/search_txt.png" alt="x"></li>
+       </a>
+      </ul>
+      <!-- link end -->
+      <ul class="link">
+       <a href="#">
+        <li><img src="./img/map.png" alt="x"></li>
+        <li><p>온라인박물관</p></li>
+        <li><img src="./img/um_txt.png" alt="x"></li>
+       </a>
+      </ul>
+      <!-- link end -->
+      <ul class="link">
+       <a href="#">
+        <li><img src="./img/mp.png" alt="x"></li>
+        <li><img src="./img/mp_txt.png" alt=""></li>
+        <li><img src="./img/mp_img.png" alt="x"></li>
+       </a>
+      </ul>
+      <!-- link end -->
+      <ul class="link">
+       <a href="#">
+        <li><img src="./img/cm.png" alt="x"></li>
+        <li><img src="./img/cm_txt1.png" alt=""></li>
+        <li><img src="./img/cm_txt2.png" alt="x"></li>
+       </a>
+      </ul>
+      <!-- link end -->
+     </div>
+     <!-- link_wrap end -->
+    </div>
+    <!-- con1 end -->
+    <div class="con2">
+     <div class="box b1">
+      <ul>
+       <li><a href="#"><img src="./img/b1_img1.png" alt="x"></a></li>
+       <li><a href="#"><img src="./img/b1_img2.jpg" alt="x"></a></li>
+       <li><a href="#"><img src="./img/b1_img3.jpg" alt="x"></a></li>
+      </ul>
+      <div class="popupzone">
+       <p>팝업존</p>
+      </div>
+     </div>
+     <!-- b1 end -->
+     <div class="box b2">
+      <div class="open1">
+       <ul>
+        <li><p>10:00 ~ 18:00</p></li>
+        <li><p>입장마감:17:30</p></li>
+        <li><p>1월 1일, 설날·추석 당일, 4월·11월 첫번째 월요일 휴관</p></li>
+       </ul>
+       <img class="alram" src="./img/alarm.png" alt="x">
+      </div>
+      <!-- open1 end -->
+      <div class="open2">
+       <ul>
+        <li class="tit">야간<br>개장</li>
+        <li>
+         <p>10:00~20:00</p>
+         <span>4월~10월 중 매주 토요일</span>
+        </li>
+       </ul>
+       <!-- open2 ul_1 end -->
+       <ul>
+        <li class="tit">어린이<br>박물관</li>
+        <li>
+         <p>10:00~17:00</p>
+         <span>1월 1일, 설날·추석 당일, 4월·11월 첫번째 월요일 휴관<br>(임시 휴관 23. 08. 31. ~ 23. 12. 31.)</span>
+        </li>
+       </ul>
+       <!-- open2 ul_2 end -->
+       <ul>
+        <li class="tit">정원<br>개방</li>
+        <li>
+         <p>08:00~20:00</p>
+         <span> </span>
+        </li>
+       </ul>
+       <!-- open2 ul_3 end -->
+      </div>
+      <!-- open2 end -->
+     </div>
+     <!-- b2 end -->
+     <div class="box b3">
+      <ul>
+       <a href="#">
+        <li class="tit">교육안내</li>
+        <li><p>국립광주박물관에서 열리는 <br>
+        다양한 교육을 경험해 보세요.</p></li>
+        <li class="arrow">
+         <img src="./img/b3_arr.png" alt="x">
+        </li>
+       </a>
+      </ul>
+      <ul>
+       <a href="#">
+        <li class="tit">문화행사</li>
+        <li><p>국립광주박물관에서 열리는<br>
+         문화행사를 여러분께 소개합니다.</p></li>
+        <li class="arrow">
+         <img src="./img/b3_arr.png" alt="x">
+        </li>
+       </a>
+      </ul>
+     </div>
+     <!-- b3 end -->
+     <div class="box b4">
+      <div class="tit">
+       <ul>
+        <li>Gwangju National Museum</li>
+        <li>아시아 도자문화 교류 거점</li>
+        <li>국립광주박물관 브랜드</li>
+       </ul>
+      </div>
+      <div class="txt">
+       <ul>
+        <li><a href="#"><img src="./img/b4_icon1.png" alt="x"><p>뉴스레터</p></a></li>
+        <li><a href="#"><img src="./img/b4_icon2.png" alt="x"><p>학술총서</p></a></li>
+        <li><a href="#"><img src="./img/b4_icon4.png" alt="x"><p>조사연구</p></a></li>
+        <li><a href="#"><img src="./img/b4_icon3.png" alt="x"><p>학술지</p></a></li>
+        <li><a href="#"><img src="./img/b4_icon5.png" alt="x"><p>도자아카이브</p></a></li>
+       </ul>
+      </div>
+     </div>
+     <!-- b4 end -->
+     <div class="box b5">
+      <div class="tit">
+       <ul>
+        <li>새소식</li>
+        <li>ㆍ</li>
+        <li>교육 프로그램공지</li>
+       </ul>
+       <p>+</p>
+       <span></span>
+      </div>
+      <!-- tit end -->
+      <div class="news">
+       <ul>
+        <li><a href="#">
+         <p>국립광주박물관 청년인턴 채용공고</p>
+         <span>2024.02.21</span>
+        </a></li>
+        <li><a href="#">
+         <p>국립광주박물관 제14기 대학생 서포터즈 모집</p>
+         <span>2024.02.02</span>
+        </a></li>
+        <li><a href="#">
+         <p>국립광주박물관 청년인턴 채용공고</p>
+         <span>2024.02.21</span>
+        </a></li>
+        <li><a href="#">
+         <p>「오래된 사진 속 국립광주박물관을 찾습니다」사진공모</p>
+         <span>2024.02.21</span>
+        </a></li>
+        <li><a href="#">
+         <p>어린이박물관 새단장 후 재개관 알림(2024. 01. 02. 화)</p>
+         <span>2024.02.21</span>
+        </a></li>
+        <li><a href="#">
+         <p>국립광주박물관 청년인턴 채용공고</p>
+         <span>2024.02.21</span>
+        </a></li>
+       </ul>
+      </div>
+      <!-- news end -->
+      <div class="notice">
+      <ul>
+       <li><a href="#">
+        <p>[성인] 제 34기 광주박물관대학 - 서양 미술 명강2 교육생 모집 새글</p>
+        <span>2024.02.29</span>
+       </a></li>
+       <li><a href="#">
+        <p>[청소년/단체] 고고학자와 함께하는 고려청자 몽타주 교육생 모집</p>
+        <span>2024.02.15</span>
+       </a></li>
+       <li><a href="#">
+        <p>[초등 4-6학년] '제18기 광주어린이박물관학교' 교육생 모집</p>
+        <span>2024.01.31</span>
+       </a></li>
+       <li><a href="#">
+        <p>[유아/단체] 2024. 쏙쏙! 상상 도자 여행 참여자 모집</p>
+        <span>2024.01.31</span>
+       </a></li>
+       <li><a href="#">
+        <p>[가족]'국립광주박물관 어린이박물관 시범운영' 가족 관람객 참가자 모집공고(마감)</p>
+        <span>2023.11.28</span>
+       </a></li>
+       <li><a href="#">
+        <p>[성인] 제 34기 광주박물관대학 - 서양 미술 명강2 교육생 모집 새글</p>
+        <span>2024.02.29</span>
+       </a></li>
+      </ul>
+     </div>
+     </div>
+     <!-- b5 end -->
+     <div class="box b6">
+      <div class="mon_news">
+       <div class="txt">
+        <ul>
+         <li>월간 소식지</li>
+         <li>국립광주박물관의<br>
+          소식을 전해드립니다.</li>
+        </ul>
+       </div>
+       <div class="arrow">
+        <ul>
+         <li><a href="#"><p>신청하기</p><img src="./img/b3_arr.png" alt="x"></a></li>
+         <li><a href="#"><p>소식지보기</p><img src="./img/b3_arr.png" alt="x"></a></li>
+        </ul>
+       </div>
+      </div>
+      <!-- mon_news end -->
+      <div class="mon_img">
+        <a href="#"><img src="./img/b6_img.jpg" alt="x"></a>
+      </div>
+      <!-- mon_img end -->
+     </div>
+     <!-- b6 end -->
+    </div>
+    <!-- con2 end -->
+   </div>
+   <!-- contents container end -->
+  </section>
+  <!-- contents end -->
+  <footer id="footer">
+   <div class="container">
+    <div class="f_top">
+     <div class="f_menu">
+      <ul>
+        <li><a href="#"><p>박물관소개</p></a></li>
+        <li><a href="#">오시는길</a></li>
+        <li class="none">|</li>
+        <li class="yellow"><a href="#">개인정보처리방침</a></li>
+        <li class="none">|</li>
+        <li><a href="#">이메일무단수집거부</a></li>
+        <li class="none">|</li>
+        <li><a href="#">저작권정책</a></li>
+      </ul>
+     </div>
+     <!-- f_menu end -->
+     <div class="f_site">
+      <ul class="site">
+        <li><p>관련사이트<span>▼</span></p>
+        <ul class="sub_site s1">
+          <li><a title="새창열림" target="_blank" href="http://www.museum.go.kr/">국립중앙박물관</a></li>
+          <li><a title="새창열림" target="_blank" href="http://gyeongju.museum.go.kr/">국립경주박물관 </a></li>
+          <li><a title="새창열림" target="_blank" href="http://gongju.museum.go.kr/">국립공주박물관</a></li>
+          <li><a title="새창열림" target="_blank" href="http://gimhae.museum.go.kr/">국립김해박물관</a></li>
+          <li><a title="새창열림" target="_blank" href="http://naju.museum.go.kr/">국립나주박물관</a></li>
+          <li><a title="새창열림" target="_blank" href="http://daegu.museum.go.kr/">국립대구박물관</a></li>
+          <li><a title="새창열림" target="_blank" href="http://buyeo.museum.go.kr/">국립부여박물관</a></li>
+          <li><a title="새창열림" target="_blank" href="http://iksan.museum.go.kr/">국립익산박물관</a></li>
+          <li><a title="새창열림" target="_blank" href="http://jeonju.museum.go.kr/">국립전주박물관</a></li>
+          <li><a title="새창열림" target="_blank" href="http://jeju.museum.go.kr/">국립제주박물관</a></li>
+          <li><a title="새창열림" target="_blank" href="http://jinju.museum.go.kr/">국립진주박물관</a></li>
+          <li><a title="새창열림" target="_blank" href="http://cheongju.museum.go.kr/">국립청주박물관</a></li>
+          <li><a title="새창열림" target="_blank" href="http://chuncheon.museum.go.kr/">국립춘천박물관</a></li>
+          <li><a title="새창열림" target="_blank" href="http://www.cfnmk.or.kr/">국립박물관문화재단</a></li>
+        </ul>
+        </li>
+        <li><p>광주문화기관<span>▼</span></p>
+          <ul class="sub_site s2">
+            <li><a title="새창열림" target="_blank" href="http://www.gjcf.or.kr/">광주문화재단</a></li>
+            <li><a title="새창열림" target="_blank" href="http://www.gdc.or.kr/">광주디자인센터</a></li>
+            <li><a title="새창열림" target="_blank" href="http://www.gjri.re.kr/main/">광주전남연구원</a></li>
+            <li><a title="새창열림" target="_blank" href="https://www.gwangjubiennale.org/">광주비엔날레</a></li>
+            <li><a title="새창열림" target="_blank" href="http://artmuse.gwangju.go.kr/">광주광역시립미술관</a></li>
+            <li><a title="새창열림" target="_blank" href="http://www.gitct.or.kr/">광주정보문화산업진흥원</a></li>
+            <li><a title="새창열림" target="_blank" href="http://kcmf.or.kr/comc/gwangju/">광주시청자미디어센터</a></li>
+            <li><a title="새창열림" target="_blank" href="http://www.accf.or.kr/">아시아문화원</a></li>
+            <li><a title="새창열림" target="_blank" href="http://gjart.gwangju.go.kr/">광주광역시문화예술회관</a></li>
+            <li><a title="새창열림" target="_blank" href="http://www.kdjcenter.or.kr/">김대중컨벤션센터</a></li>
+            <li><a title="새창열림" target="_blank" href="https://www.gwangju.go.kr/gjhfm/">광주역사민속박물관</a></li>
+            <li><a title="새창열림" target="_blank" href="http://www.sciencecenter.or.kr/">국립광주과학관</a></li>
+            <li><a title="새창열림" target="_blank" href="https://www.acc.go.kr/">국립아시아문화전당</a></li>
+            <li><a title="새창열림" target="_blank" href="http://museum.gnue.ac.kr/">광주교육대학교 교육박물관</a></li>
+            <li><a title="새창열림" target="_blank" href="http://www.wooart.co.kr/">우제길미술관</a></li>
+            <li><a title="새창열림" target="_blank" href="http://eunam.org/">은암미술관</a></li>
+            <li><a title="새창열림" target="_blank" href="http://www.mdmoca.co.kr/">무등현대미술관</a></li>
+            <li><a title="새창열림" target="_blank" href="http://cafe.daum.net/yywol">국윤미술관</a></li>
+            <li><a title="새창열림" target="_blank" href="http://museum.jnu.ac.kr/">전남대학교박물관</a></li>
+            <li><a title="새창열림" target="_blank" href="http://www.cumoa.org/">조선대학교미술관</a></li>
+            <li><a title="새창열림" target="_blank" href="http://www2.chosun.ac.kr/mbs/museum/">조선대학교박물관</a></li>
+            <li><a title="새창열림" target="_blank" href="http://kbeautymuseum.org/">한국미용박물관</a></li>
+            <li><a title="새창열림" target="_blank" href="http://www.medicalmuseum.ac.kr/">전대의학박물관</a></li>
+            <li><a title="새창열림" target="_blank" href="http://www.namdofoodmuseum.go.kr/">남도향토음식박물관</a></li>
+            <li><a title="새창열림" target="_blank" href="https://ko-kr.facebook.com/juanmoa14/">주안미술관</a></li>
+            <li><a title="새창열림" target="_blank" href="http://www.ujam.org/">의재미술관</a></li>
+            <li><a title="새창열림" target="_blank" href="http://kimchitown.gwangju.go.kr/">광주김치박물관</a></li>
+            <li><a title="새창열림" target="_blank" href="http://biummuseum.com/">비움박물관</a></li>
+            <li><a title="새창열림" target="_blank" href="http://soam-museum.com">소암미술관</a></li>
+          </ul>
+        </li>
+        <li><p>전국유관기관<span>▼</span></p>
+        <ul class="sub_site s3">
+          <li><a title="새창열림" target="_blank" href="http://www.mcst.go.kr/main.jsp">문화체육관광부</a></li>
+          <li><a title="새창열림" target="_blank" href="http://www.cha.go.kr/">문화재청 </a></li>
+          <li><a title="새창열림" target="_blank" href="http://www.gugak.go.kr/">국립국악원 </a></li>
+          <li><a title="새창열림" target="_blank" href="http://www.korean.go.kr/">국립국어원 </a></li>
+          <li><a title="새창열림" target="_blank" href="https://www.ntok.go.kr/">국립극장</a></li>
+          <li><a title="새창열림" target="_blank" href="http://www.nl.go.kr/">국립중앙도서관</a></li>
+          <li><a title="새창열림" target="_blank" href="http://www.mmca.go.kr/">국립현대미술관</a></li>
+          <li><a title="새창열림" target="_blank" href="http://www.nfm.go.kr/">국립민속박물관</a></li>
+          <li><a title="새창열림" target="_blank" href="http://www.cct.go.kr/">아시아문화중심도시</a></li>
+          <li><a title="새창열림" target="_blank" href="http://www.culture.go.kr/">문화포털</a></li>
+          <li><a title="새창열림" target="_blank" href="http://www.cfnmk.or.kr/">국립박물관문화재단 </a></li>
+          <li><a title="새창열림" target="_blank" href="http://www.emuseum.go.kr/"> e뮤지엄</a></li>
+        </ul>
+        </li>
+      </ul>
+     </div>
+     <!-- f_site end -->
+    </div>
+    <!-- f_top end -->
+    <div class="f_bottom">
+      <div class="f_logo">
+        <a href="#">
+          <img src="./img/flogo.png" alt="x">
+        </a>
+      </div>
+      <div class="copy">
+        <p>61066 광주광역시 북구 하서로 110(매곡동 430번지) | 대표전화 062)570-7000<br> Copyright(c) 2018 Gwangju National Museum. All rights reserved.</p>
+      </div>
+      <div class="sns">
+        <ul>
+          <li><a href="#"><img src="./img/mark.png" alt="x"></a></li>
+          <li><a href="#"><img src="./img/f.png" alt="x"></a></li>
+          <li><a href="#"><img src="./img/i.png" alt="x"></a></li>
+          <li><a href="#"><img src="./img/b.png" alt="x"></a></li>
+          <li><a href="#"><img src="./img/y.png" alt="x"></a></li>
+          <li><a href="#"><img src="./img/open.png" alt="x"></a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- f_bottom end -->
+   </div>
+   <!-- footer container end -->
+  </footer>
+  <!-- footer end -->
+ </div>
+</body>
+</html>
