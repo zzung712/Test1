@@ -1,0 +1,41 @@
+@charset "utf-8";
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+html,body{width:100%; height:auto; color:#666; font-family: 'NanumSquare'; background:#fff;}
+
+.wrap{width:100%; height:100%; display:flex;}
+#header{width:400px; height:100%; background:#fff7e9; position:fixed; top:0; left:0; color:#764a00; padding:50px; box-sizing:border-box; padding-right:0;}
+.h_tit{width:100%; height:50%; display:flex; align-content:flex-end; flex-wrap:wrap;}
+.h_tit>p{font-size:50px; font-weight:bold; position:relative;}
+.h_tit>p::after{content:" "; width:60px; height:5px; background:#ffc258; position:absolute; bottom:-15px; left:0;}
+.h_tit>span{display:block; width:100%; line-height:80px; letter-spacing:2px;}
+
+
+.sns{width:100%; height:50%; display:flex; align-items:flex-end;}
+.sns>ul{display:flex;}
+.sns>ul>li{display:flex; margin-right:15px;}
+.sns>ul>li>i{margin-right:5px; font-size:18px;}
+
+#contents{width:calc(100% - 400px); height:auto; margin-left:400px; padding:20px;box-sizing:border-box;}
+.menu{width:100%; height:80px; display:flex; justify-content:flex-end; align-items:center;}
+.menu>ul{display:flex; margin-right:50px;}
+.menu>ul>li{width:120px; height:40px; background:#fff; margin-right:15px; text-align:center; line-height:40px; font-weight:bold; cursor:pointer; color:#aaa;}
+.menu>ul>li.active{border-bottom :3px solid #ffc258; color:#764a00;}
+
+.gallery{width:100%; height:90%; display:flex; flex-wrap:wrap;}
+.gallery_box{width:22%; margin:20px; box-sizing:border-box; border:1px solid rgb(227, 227, 227); border-radius:5px;}
+.gallery_box>a{background:#fff; padding:20px; box-sizing:border-box; border-radius:5px;}
+.gallery_box img{width:100%;}
+.gallery_box>a>p{font-size:20px; font-weight:bold; line-height:35px;}
+.gallery_box>a>span{font-size:13px; line-height:25px;}
+
+.popup_wrap{width:100%; height:100%; background:#0000009c; position:absolute; top:0; left:0; display:none; z-index:20;}
+.popup{width:80%; height:90%; position:absolute; top:0; left:0; right:0; bottom:0; margin:auto; background:#fff; border-radius:10px; display:flex; justify-content:center; align-items:flex-start; padding:2%; box-sizing:border-box; overflow:scroll; overflow-x:hidden;}
+.popup::-webkit-scrollbar{width: 8px;}
+.popup::-webkit-scrollbar-thumb{height:30%; background:#ccc; border-radius:10px;}
+.popup::-webkit-scrollbar-track{background:#eee;}
+.p_img{width:100%; display:flex; align-items:flex-start; overflow:hidden; justify-content:center;}
+.p_img>img{width:100%;}
+.site_click>a{position:absolute; bottom:10%; right: 34%; background:#000; color:#fff; padding:10px 15px; font-size:1.3em; font-weight:bold;}
+
+
+.p_close{position:absolute; top:3.5%; right:9.2%; font-size:20px; width:25px; height:25px; background:#000; border:5px solid #ddd; color:#fff; text-align:center; line-height:21px; border-radius:100%; cursor:pointer;}
